@@ -1,0 +1,111 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+ body {
+    margin-top: 50px;
+    /* margin-left: 140px;
+    margin-right: 140px; */
+}
+
+.merriweather-body {
+    font-family: "Merriweather";
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  /* shared styles */
+    .red {
+        color: #FF0000;
+    }
+    .font-description {
+        font-weight: 500;
+        font-size: 20px;
+        color: rgb(7, 2, 17, .4)
+    }
+    .medium24 {
+        font-weight: 500;
+        font-size: 24px;
+    }
+    .black48 {
+        font-size: 48px;
+        font-weight: 900;
+    }
+    .bold48 {
+        font-weight: 700;
+        font-size: 48px;
+    }
+    .black72 {
+        font-size: 72px;
+        font-weight: 900;
+    }
+
+  /* banner section  */
+
+  header> .banner {
+    width: 1280px;
+    height: 580px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url("../assets/images/Banner\ Image.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner> .banner-content {
+    width: 625px;
+    height: 240px;
+    color: #FFFFFF;
+    /* padding: 177px 300px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:16px;
+    text-align: center;
+  }
+  .banner> .banner-content> h3 {
+    font-size: 32px;
+  }
+
+  header > .discount {
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 802px;
+    width: 790px;
+    text-align: center;
+  }
+  .discount > h1 { 
+    font-weight: 700;
+    font-size: 88px;
+    margin-bottom: 48px;
+  }
+  .discount > h2 {
+    margin-top: 16px;
+    margin-bottom: 48px;
+  }
+  .discount > .discount-image {
+    height: 500px;
+    width: 100%;
+  } 
+  header > .party {
+    width: 1280px;
+    height: 580px;
+    margin: 0 auto;
+    margin-top: 120px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url("../assets/images/Vectorrr.png");
+    background-size: cover;
+    color:white;
+  }
+
+
+
+
+
+
+
+
